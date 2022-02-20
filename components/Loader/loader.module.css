@@ -1,0 +1,27 @@
+.container {
+  position: absolute;
+  height: 411px;
+  width: 268px;
+  background: #e0faf8;
+  border: 1px solid #68e3d9;
+  top: -13px;
+  left: -5px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > div {
+  height: 211px;
+  width: 200px;
+  background: white;
+}
+
+.container > p {
+  font-size: 10.8px;
+  color: #006e72;
+  margin-top: 10px;
+  font-weight: 600;
+}
